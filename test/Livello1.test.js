@@ -2,8 +2,8 @@ import {expect} from 'chai';
 
 import * as kata from '../src/Livello1';
 
-describe('Kata Livello 1', function(){
-  it('should return a flat array', function(){
+describe('Kata Livello 1', () => {
+  it('should return a flat array', () => {
     expect(kata.flatten([1],[2, [[3]]])).to.deep.equal([1,2,3]);
   });
   it('should return a list within [1,2,3] with use two-args function', () => {
@@ -34,6 +34,6 @@ describe('Kata Livello 1', function(){
     expect(kata.esercizio9('Luca','Alberto','Vanessa','Carmen')).to.deep.equal(['Alberto','Carmen','Luca','Vanessa']);
   });
   it('should return the first element divisible by 41', () => {
-    expect(kata.esercizio10(kata.esercizio2(100)(1000))%41).to.equal(0);
+    expect(kata.esercizio10(kata.esercizio2(100)(1000)) % 41).to.equal(0);
   })
 });
