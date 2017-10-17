@@ -1,0 +1,41 @@
+{
+  "name": "ramda-js-roma",
+  "version": "1.0.0",
+  "description": "A series of kata for learning Functional Programming with Ramda Library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src -s -D -d dist",
+    "test": "mocha --require babel-register test/*.test.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordKenzo/ramda-js-roma.git"
+  },
+  "keywords": [
+    "javascript",
+    "functional",
+    "programming",
+    "ramda",
+    "kata",
+    "learning"
+  ],
+  "author": "Lorenzo Franceschini <l.franceschini@gmail.com> (http://www.lorenzofranceschini.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LordKenzo/ramda-js-roma/issues"
+  },
+  "homepage": "https://github.com/LordKenzo/ramda-js-roma#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
