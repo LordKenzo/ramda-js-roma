@@ -1,6 +1,7 @@
 # Functional Programming Kata with Ramda
 
 This is a simple repo with incremental kata for learning `Functional Programming` with [Ramda Library](http://ramdajs.com/).
+Please consider that this works is based on our meet up at [Lambda Garden Roma](https://github.com/CodeGardenRome/kata_zero_slide), more info on [Lambda Garden Roma Meetup](https://www.meetup.com/it-IT/Lambda-Roma/events/243702732/?_cookie-check=SBB6xDTeVkCNZT1z).
 
 ## Installation
 
