@@ -1,0 +1,10 @@
+1. Restituisci una lista contenente 1,2,3;
+2. Restituisci una lista contenente 1,2,3 utilizzando funzioni con singolo argomento;
+3. Restituisci una lista contenente 1,2,3,4,5 con una funzione a singolo argomento (prendi il min e il max);
+4. Restituisci una lista contenente i numeri pari tra 1 e 10;
+5. Restituisci una lista contenente i multipli di 7 tra 1 e 50;
+6. Da un elenco di nomi, restituire una lista con tutti i nomi che cominciano per "C";
+7. Calcolare la media dei multipli di 8 compresi tra 1 e 100;
+8. Calcolare la somma dei multipli di 6 compresi tra 1 e 1000;
+9. Da un elenco nomi, restituisci una lista con i nomi ordinati alfabeticamente;
+10. Tra i numeri da 100 a 1000 trovarne uno qualunque divisibile per 41;
