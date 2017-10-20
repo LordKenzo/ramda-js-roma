@@ -1,5 +1,6 @@
 import {expect} from 'chai';
-
+import Immutable from 'immutable';
+import {List} from 'immutable';
 import * as basi from '../src/Basi';
 
 const users = [
@@ -28,8 +29,8 @@ describe('Basi', () => {
     expect(array).to.deep.equal([{id:2}]);
   });
   it('should be return a unmodified array', () =>{
-    const array = [];
+    const array = Immutable.List([]);
     expect(basi.addToArrayPure(array)).to.deep.equal([{id:2}]);
-    expect(array).to.deep.equal([]);
+    expect(array).to.deep.equal(Immutable.List([]));
   });
 });
